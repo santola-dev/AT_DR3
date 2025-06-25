@@ -4,6 +4,8 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+
+// TESTES USANDO POST
 public class PostItemCliente {
     public static void main(String[] args) {
         try {
