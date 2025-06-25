@@ -21,6 +21,8 @@ public class App {
         app.post("/echo", App::echoHandler); // Usa o método echoHandler e retorna o JSON que lhe for dado
         app.get("/saudacao/{nome}", App::saudacaoHandler); // Usa o método saudacaoHandler para retornar um "Olá, <nome>!"
 
+
+        // TESTES DE: BUSCA: LISTAGEM E GARANTINDO A CRIAÇÃO DE UM (1) ITEM
         app.post("/tarefas", App::criarProdutoHandler); // Cria o endpoint
         app.get("/tarefas", App::listarProdutosHandler); // Lista os produtos existentes de uma lista
         app.get("/tarefas/{nome}", App::buscarProdutoPorNomeHandler); // Busca entre os produtos de dita lista
