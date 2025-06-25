@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+
+// TESTES USANDO GET
 public class GetItemPorIdCliente {
     public static void main(String[] args) {
         int itemId = 1; // Altere conforme necessário
