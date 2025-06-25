@@ -3,6 +3,8 @@ import java.net.URI;
 import java.net.http.*;
 import java.io.IOException;
 
+
+// TESTE USANDO JUNIT
 public class StatusClienteJUnit {
         public static void main(String[] args) throws IOException, InterruptedException {
             String url = "http://localhost:7070/tarefas";
